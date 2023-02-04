@@ -1,0 +1,20 @@
+[
+    {"marca": "BMW", "modelo": "X7", "precio": 170000, "imagen": "./public/imagenes/bmw-x7.jpg"},
+    {"marca": "BMW", "modelo": "SERIE 5", "precio": 100000, "imagen": "./public/imagenes/bmw-serie5.jpg"},
+    {"marca": "BMW", "modelo": "SERIE 3", "precio": 80000, "imagen": "./public/imagenes/bmw-serie3.jpg"},
+    {"marca": "AUDI", "modelo": "RS7", "precio": 240000, "imagen": "./public/imagenes/audi-rs7.jpg"},
+    {"marca": "AUDI", "modelo": "Q5", "precio": 90000, "imagen": "./public/imagenes/audi-q5.jpg"},
+    {"marca": "AUDI", "modelo": "Q7", "precio": 120000, "imagen": "./public/imagenes/audi-q7.jpg"},
+    {"marca": "MERCEDES BENZ", "modelo": "CLASE C", "precio": 90000, "imagen": "./public/imagenes/mercedes-claseC.jpg"},
+    {"marca": "MERCEDES BENZ", "modelo": "CLASE G", "precio": 190000, "imagen": "./public/imagenes/mercedes-claseG.jpg"},
+    {"marca": "MERCEDES BENZ", "modelo": "GLS MAYBACH", "precio": 310000, "imagen": "./public/imagenes/mercedes-maybach.jpg"},
+    {"marca": "LEXUS", "modelo": "LX", "precio": 320000, "imagen": "./public/imagenes/lexus-lx.jpg"},
+    {"marca": "LEXUS", "modelo": "NX", "precio": 205000, "imagen": "./public/imagenes/lexus-nx.jpg"},
+    {"marca": "LEXUS", "modelo": "LS", "precio": 390000, "imagen": "./public/imagenes/lexus-ls.jpg"},
+    {"marca": "FERRARI", "modelo": "ROMA", "precio": 500000, "imagen": "./public/imagenes/ferrari-roma.jpg"},
+    {"marca": "BENTLEY", "modelo": "BENTAYGA", "precio": 650000, "imagen": "./public/imagenes/bentley-bentayga.jpg"},
+    {"marca": "ROLLS ROYCE", "modelo": "PHANTOM", "precio": 950000, "imagen": "./public/imagenes/rollsroyce-phantom.jpg"},
+    {"marca": "MCLAREN", "modelo": "GT", "precio": 795000, "imagen": "./public/imagenes/mclaren-gt.jpg"},
+    {"marca": "FERRARI", "modelo": "F8 TRIBUTO", "precio": 540000, "imagen": "./public/imagenes/ferrari-f8.jpg"},
+    {"marca": "ROLLS ROYCE", "modelo": "CULLINAN", "precio": 700000, "imagen": "./public/imagenes/rollsroyce-cullinan.jpg"}
+]

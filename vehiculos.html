@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Dream Car</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link rel="stylesheet" href="./public/style.css">
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand">Dream Car</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" http-equiv = "refresh" aria-current="page" href="./index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./vehiculos.html">Vehiculos</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+        <section class="container">
+          <div class="row">
+            <div class="col-3">
+              <div class="divPrecio">
+                <section class="wrapper">
+                  <div>
+                    <h2>Rango de Precio</h2>
+                  </div>
+                  <div class="price-input">
+                    <div class="field">
+                      <span>Min</span>
+                      <input type="number" class="input-min" value="0">
+                    </div>
+                    <div class="separator">-</div>
+                    <div class="field">
+                      <span>Max</span>
+                      <input type="number" class="input-max" value="1000000">
+                    </div>
+                  </div>
+                  <div class="slider">
+                    <div class="progress"></div>
+                  </div>
+                  <div class="range-input">
+                    <input type="range" class="range-min" min="0" max="1000000" value="0" step="10000">
+                    <input type="range" class="range-max" min="0" max="1000000" value="1000000" step="10000">
+                  </div>
+                </section>
+              </div>
+              <div class="divMarca wrapper">
+                <h2>Marcas</h2>
+                <ul>
+                  <li><button class="mercedes btn-light btn">Mercedes Benz</button></li>
+                  <li><button class="bmw btn-light btn">BMW</button></li>
+                  <li><button class="audi btn-light btn">Audi</button></li>
+                  <li><button class="lexus btn-light btn">Lexus</button></li>
+                  <li><button class="ferrari btn-light btn">Ferrari</button></li>
+                  <li><button class="bentley btn-light btn">Bentley</button></li>
+                  <li><button class="mclaren btn-light btn">McLaren</button></li>
+                  <li><button class="rollsroyce btn-light btn">Rolls Royce</button></li>
+                </ul>
+              </div>
+              <div class="wrapper divOrden">
+                <h2>Ordenenar</h2>
+                <ul>
+                  <li><button class="ascendente btn-light btn">Ascendente &#8593</button></li>
+                  <li><button class="descendente btn-light btn">Descendente &#8595</button></li>
+                </ul>
+              </div>
+              <div class="wrapper divOrden">
+                <h2>Eliminar Filtros y Orden</h2>
+                <ul>
+                  <a href="./vehiculos.html"><li><button class="btn-light btn">Eliminar &#128465</button></li></a>
+                </ul>
+              </div>
+            </div>
+            <div class="col-9 text-center">
+              <div id="contenedorHome" class="row row-cols-1 row-cols-md-2 g-4 container-fluid"></div>
+              <div id="contenedorFiltro" class="row row-cols-1 row-cols-md-2 g-4 container-fluid"></div>
+            </div>
+          </div>
+        </section>
+        <footer class="bg-light text-center text-lg-start">
+          <div class="text-center p-3 footer" style="background-color: rgba(0, 0, 0, 0.2);">
+            © 2022 Copyright:
+            <a class="text-dark" href="https://github.com/Nicolas-M-Lopez">Nicolas Lopez</a>
+          </div>
+        </footer>
+      </main>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+      <script src="./index.js"></script>
+    </body>
+  </html>
+  
+  
